@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const image = document.querySelector('#eye-image');
-    const text = document.querySelector('#text');
+    const image = document.getElementById('eye-image');
+    const text = document.getElementById('text');
     let isDefaultText = true; // Estado para controlar o texto
 
     image.addEventListener('click', function() {
